@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TITAN — Performance, força e evolução física.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+        extend: {
+            colors: { brand: { 400: '#ff6b6b', 500: '#FF3B30', 600: '#d62828' } },
+            fontFamily: { sans: ['Urbanist', 'system-ui', 'sans-serif'] },
+        },
+        },
+    };
+    </script>
+    <title>TITAN · Elite Fitness</title>
+</head>
+<body class="min-h-screen bg-[#121212] font-sans text-white antialiased">
+    <header class="border-b border-[#2A2A2A] bg-[#121212]/90 backdrop-blur">
+        <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+            <a href="#" class="text-lg font-bold tracking-tight text-white">TI<span class="text-brand-500">TAN</span></a>
+             <nav class="hidden items-center gap-6 md:flex" aria-label="Principal">
+                <a href="#features" class="rounded-md px-1 text-sm font-medium text-[#6E6E6E] transition hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500">Treinos</a>
+                <a href="#cta" class="rounded-md px-1 text-sm font-medium text-[#6E6E6E] transition hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500">Planos</a>
+                <a href="#footer" class="rounded-md px-1 text-sm font-medium text-[#6E6E6E] transition hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500">Resultados</a>
+            </nav>
+            <details class="relative md:hidden">
+                <summary class="inline-flex cursor-pointer list-none items-center justify-center rounded-lg border border-[#2A2A2A] p-2 text-brand-500 [&::-webkit-details-marker]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500">
+                    <i class="fa-solid fa-bars shrink-0 text-xl leading-none" aria-hidden="true"></i>
+                    <span class="sr-only">Abrir ou fechar menu</span>
+                </summary>
+                <nav class="absolute right-0 top-[calc(100%+0.5rem)] z-50 min-w-[12rem] rounded-xl border border-[#2A2A2A] bg-[#121212] py-2 shadow-xl shadow-black/50 ring-1 ring-white/5" aria-label="Principal (mobile)">
+                    <a href="#features" class="block px-4 py-2.5 text-sm font-medium text-[#6E6E6E] transition hover:bg-[#1A1A1A] hover:text-white focus-visible:bg-[#1A1A1A] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500">Treinos</a>
+                    <a href="#cta" class="block px-4 py-2.5 text-sm font-medium text-[#6E6E6E] transition hover:bg-[#1A1A1A] hover:text-white focus-visible:bg-[#1A1A1A] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500">Planos</a>
+                    <a href="#footer" class="block px-4 py-2.5 text-sm font-medium text-[#6E6E6E] transition hover:bg-[#1A1A1A] hover:text-white focus-visible:bg-[#1A1A1A] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500">Resultados</a>
+                </nav>
+            </details>
+        </div>
+    </header>
+<main>
+    <section class="border-b border-[#2A2A2A] bg-gradient-to-b from-[#121212] to-black py-20 sm:py-24">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <div class="text-center lg:text-left">
+                <p class="text-sm font-semibold uppercase tracking-widest text-brand-500">Elite Fitness Performance</p>
+                <h1 class="mt-4 text-4xl font-extrabold tracking-tight text-white sm:text-5xl">Transforme disciplina em resultado.</h1>
+                <p class="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-[#B0B0B0] lg:mx-0">Treinos intensos, performance máxima e uma comunidade focada em evolução física de verdade.</p>
+            </div>
+            <div class="mt-10 flex flex-wrap justify-center gap-4 lg:justify-start">
+                <a href="#cta" class="inline-flex items-center justify-center rounded-full bg-brand-500 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-brand-500/25 transition hover:bg-brand-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#121212]">Começar treino</a>
+                <a href="modulo-1-intro-setup.html" class="inline-flex items-center justify-center rounded-full bg-[#6E6E6E] px-8 py-3.5 text-base font-semibold text-white transition hover:bg-[#808080] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6E6E6E] focus-visible:ring-offset-2 focus-visible:ring-offset-[#121212]">Ver planos</a>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
